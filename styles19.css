@@ -1,0 +1,74 @@
+body {
+
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    background: rgba(7, 4, 39, 0.7);
+    background-image: -moz-element(display);
+    padding: 20px;
+    border-radius: 10px;
+    color: #111010;
+    width: 80%;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.form-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.register, .login {
+    width: 45%;
+    padding: 15px;
+    background: #8d98aa1a;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background: #f0a500;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80%;
+}
+
+button:hover {
+    background: #cf8500;
+}
+
+.gender, .terms, .remember {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.gender label, .terms label, .remember label {
+    margin-left: 5px;
+    cursor: pointer;
+}

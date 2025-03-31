@@ -1,0 +1,82 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #b19898;
+    color: #333;
+    margin: 20px;
+  }
+  
+  .grade-sheet-container {
+    background-color: rgb(196, 193, 193);
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grade-sheet-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .grade-sheet-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .grade-sheet-header p {
+    font-size: 1rem;
+  }
+  
+  .student-details, .subjects, .grade-summary {
+    margin-bottom: 30px;
+  }
+  
+  .student-details h2, .subjects h2, .grade-summary h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .student-details p, .grade-summary p {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  
+  .subjects-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .subjects-table th, .subjects-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .subjects-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .subjects-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .remarks {
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .remarks p {
+    margin-top: 10px;
+    font-style: italic;
+    font: bold;
+  }
+  
